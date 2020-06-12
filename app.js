@@ -10,7 +10,7 @@ function validateName(){
     const name = document.querySelector('#name');
     //add regex
     // must start with a letter and be between 2-10 characters
-    const re = /^[a-zA-Z]{2,10}$/;
+    const re = /^[a-zA-Z]{2,38}$/;
 
     // if the inputted character is valid 
     !re.test(name.value) ?
